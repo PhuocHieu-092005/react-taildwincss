@@ -7,6 +7,6 @@ const repoName = "react-tailwindcss";
 // https://vitejs.dev/config/
 export default defineConfig({
   // THÊM THUỘC TÍNH BASE NÀY:
-  base: `/${repoName}/`,
+  base: "./",
   plugins: [react()],
 });
