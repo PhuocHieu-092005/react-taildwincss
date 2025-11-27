@@ -1,7 +1,12 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
 
-// https://vite.dev/config/
+// Tên repository của bạn: react-tailwindcss
+const repoName = "react-tailwindcss";
+
+// https://vitejs.dev/config/
 export default defineConfig({
+  // THÊM THUỘC TÍNH BASE NÀY:
+  base: `/${repoName}/`,
   plugins: [react()],
-})
+});
